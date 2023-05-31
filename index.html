@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <form id="registrationForm" onsubmit="return validateForm()">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="name">
+        <span id="nameError" class="error"></span><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="email">
+        <span id="emailError" class="error"></span><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="password">
+        <span id="passwordError" class="error"></span><br><br>
+
+        <label for="phone">Phone:</label>
+        <input type="text" id="phone" name="phone" placeholder="+91 XXXXXXXXXX">
+        <span id="phoneError" class="error"></span><br><br>
+
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender">
+            <option value="">Select</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select>
+        <span id="genderError" class="error"></span><br><br>
+
+        <label for="language">Language:</label>
+        <select id="language" name="language">
+            <option value="">Select</option>
+            <option value="male">Hindi</option>
+            <option value="female">English</option>
+            <option value="other">Tamil</option>
+            <option value="other">Malyalam</option>
+            <option value="other">Kannada</option>
+            <option value="other">Telugu</option>
+        </select>
+        <span id="languageError" class="error"></span><br><br>
+
+        <label for="zip">Zip Code:</label>
+        <input type="text" id="zip" name="zip">
+        <span id="zipError" class="error"></span><br><br>
+
+        <label for="about">About:</label>
+        <textarea id="about" name="about"></textarea>
+        <span id="aboutError" class="error"></span><br><br>
+
+        <button class="btn" value="Register">Register</button>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>

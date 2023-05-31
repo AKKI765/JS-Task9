@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(185, 47, 93);
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+label {
+    width:100px;
+    clear:left;
+    text-align:right;
+    padding-right:10px;
+}
+
+input, label {
+    float:left;
+}
+
+#registrationForm{
+    margin-top: 200px;
+    margin-bottom:200px;
+    margin-left: 470px;
+    margin-right: 470px;
+    background-color:rgb(72, 8, 8);
+    color:aliceblue;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.btn{
+    margin-left:50px;
+    padding-left: 180px;
+    padding-right: 180px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    
+}
+
+.btn:hover{
+    background-color: aqua;
+    cursor: pointer;
+}
